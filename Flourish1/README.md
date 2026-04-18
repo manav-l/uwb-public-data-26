@@ -9,4 +9,7 @@ The data covers incidents from 2014 through 2026 and contains 18,999 records acr
 City of Seattle Open Data Portal  
 https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj
 
+![Level 3 Use of Force by Race/Ethnicity](Flourish1 UOF Visual.png)
+
+[View on Flourish](https://public.flourish.studio/visualisation/28548099/)
 
