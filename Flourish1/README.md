@@ -13,3 +13,8 @@ https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj
 
 [View on Flourish](https://public.flourish.studio/visualisation/28548099/)
 
+## Citations
+
+Seattle Police Department. (2026). *Use of Force* [Dataset]. 
+City of Seattle Open Data Portal. https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj
+
