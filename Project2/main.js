@@ -1,7 +1,7 @@
 //Call consts.
 const width = 1000;
 const height = 600;
-const margin = 50;
+const margin = 70;
 
 //Load data.
 d3.csv("avgincome-cpi.csv").then(data => {
@@ -52,6 +52,15 @@ d3.csv("avgincome-cpi.csv").then(data => {
     svg.append("g")
         .attr("class", "y-axis")
         .call(d3.axisLeft(yScale).tickFormat(d => d + "%"));
+
+    //Y axis label
+    svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("x", -(height - margin * 2) / 2)
+        .attr("y", -50)
+        .attr("text-anchor", "middle")
+        .attr("class", "axis-label")
+        .text("Percent Change");
 
     //Create income line
     const incomeLine = d3.line()
